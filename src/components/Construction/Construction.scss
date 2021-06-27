@@ -1,0 +1,86 @@
+.construction-section{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 150px;
+    .construction-inner-div{
+        background-color: #033001;
+        height: 427px;
+        width: 100%;
+        border-radius: 34px;
+        position: absolute;
+        .construction-inner-image{
+            img{
+                max-width: 95%;
+            }
+        }
+    }
+   .construction-p-outer{
+    
+    .construction-outer-div{
+        background: transparent linear-gradient(270deg, #033001 0%, #044802D1 43%, #FFFFFF00 95%) 0% 0% no-repeat padding-box;
+        height: 463px;
+        // width: 100%;
+        position: relative;
+        bottom:0px ;
+        border-radius: 28px;
+        right: 5%;
+        .construction-outer-text{
+            display: flex;
+            align-items:center;
+            height: 100%;
+            h1{
+                color: #FFFFFF;
+                font-size: 36px;
+            }
+            p{
+                color: #929292;
+                font-size: 20px;
+            }
+        }
+    }
+   }
+}
+
+@media(max-width:575px){
+       .construction-section{
+           margin-right: 0px;
+        //    position: absolute;
+           .construction-inner-div{
+               position: absolute;
+               .construction-inner-image{
+                img{
+                    margin-top: -1% !important;
+                }
+               }
+           }
+       .construction-p-outer{
+        .construction-outer-div{
+            background: transparent linear-gradient(270deg, #033001 0%, #044802D1 43%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+            height:463px;
+            .construction-outer-text{
+                position: relative;
+                top: 85px;
+                h1{
+                    font-size: 24px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+           }
+       }
+       }
+}
+
+@media(max-width:768px){
+    .construction-section{
+        .construction-inner-div{
+            .construction-inner-image{
+                img{
+                    margin-top: 40px;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

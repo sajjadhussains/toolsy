@@ -1,0 +1,235 @@
+.equipment-section {
+    height: 426px;
+    width: 100%;
+    position: relative;
+    .equipment-main {
+        display: flex;
+        .equipment-p-left {
+            width: 50%;
+            height: 426px;
+            .equipment-left {
+                background: #DECC83 0% 0% no-repeat padding-box;
+                border-radius: 21px;
+                opacity: 0.2;
+                margin-right: 20px;
+                margin-left: 40px;
+                height: 100%;
+                width: 100%;
+            }
+            .e-image-section {
+                border-radius: 15px;
+                opacity: 1;
+                width: 323px;
+                height: 291px;
+                z-index: 1;
+                background-color: #4BAB01;
+                position: absolute;
+                bottom: 70px;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+        .equipment-p-right {
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            right: 200px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .equipment-section {
+        height: 426px;
+        width: 100%;
+        position: relative;
+        .equipment-main {
+            display: block;
+            // flex-wrap: wrap;
+            .equipment-p-left {
+                max-width: 50%;
+                height: 426px;
+                display: block;
+                .equipment-left {
+                    background: #DECC83 0% 0% no-repeat padding-box;
+                    border-radius: 21px;
+                    opacity: 0.2;
+                    margin-right: 20px;
+                    margin-left: 40px;
+                    height: 100%;
+                    max-width: 100%;
+                }
+                .e-image-section {
+                    border-radius: 15px;
+                    opacity: 1;
+                    width: 323px;
+                    height: 291px;
+                    z-index: 1;
+                    background-color: #4BAB01;
+                    position: absolute;
+                    bottom: 70px;
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+            .equipment-p-right {
+                width: 50%;
+                height: 100%;
+                position: absolute;
+                right: 0;
+                top: 280px;
+                left: 15px;
+                display: block;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+@media(max-width:1199px){
+    .equipment-section {
+        height: 426px;
+        width: 100%;
+        position: relative;
+        .equipment-main {
+            display: flex;
+            .equipment-p-left {
+                width: 50%;
+                height: 426px;
+                .equipment-left {
+                    background: #DECC83 0% 0% no-repeat padding-box;
+                    border-radius: 21px;
+                    opacity: 0.2;
+                    margin-right: 20px;
+                    margin-left: 40px;
+                    height: 100%;
+                    width: 100%;
+                }
+                .e-image-section {
+                    border-radius: 15px;
+                    opacity: 1;
+                    width: 323px;
+                    height: 291px;
+                    z-index: 1;
+                    background-color: #4BAB01;
+                    position: absolute;
+                    bottom: 70px;
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+            .equipment-p-right {
+                width: 50%;
+                height: 100%;
+                .equipment-right {
+                    position: absolute;
+                    left: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:992px){
+    .equipment-section {
+        height: 426px;
+        width: 100%;
+        position: relative;
+        .equipment-main {
+            display: flex;
+            .equipment-p-left {
+                width: 50%;
+                height: 426px;
+                .equipment-left {
+                    background: #DECC83 0% 0% no-repeat padding-box;
+                    border-radius: 21px;
+                    opacity: 0.2;
+                    margin-right: 20px;
+                    margin-left: 40px;
+                    height: 100%;
+                    width: 100%;
+                }
+                .e-image-section {
+                    border-radius: 15px;
+                    opacity: 1;
+                    width: 323px;
+                    height: 291px;
+                    z-index: 1;
+                    background-color: #4BAB01;
+                    position: absolute;
+                    bottom: 70px;
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+            .equipment-p-right {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                left: 0;
+                .equipment-right {
+                    position: relative;
+                    // left: 200px;
+                    left: 0;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:575px){
+    .equipment-section {
+        height: 426px;
+        width: 100%;
+        // position: relative;
+        .equipment-main {
+            display: block;
+            flex-wrap: wrap;
+            width: 100%;
+            .equipment-p-left {
+                max-width: 100%;
+                height: 100%;
+                display: block;
+                .equipment-left {
+                    background: #DECC83 0% 0% no-repeat padding-box;
+                    border-radius: 21px;
+                    opacity: 0.2;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    height: 100%;
+                    max-width: 100%;
+                    display: block;
+                }
+                .e-image-section {
+                    border-radius: 15px;
+                    opacity: 1;
+                    width: 90%;
+                    height: 291px;
+                    // z-index: 1;
+                    background-color: #4BAB01;
+                    // position: absolute;
+                    // bottom: 70px;
+                    img {
+                        max-width: 100%;
+                        transform: translateY(0px);
+                    }
+                }
+            }
+            .equipment-p-right {
+                width: 100%;
+                height: 400px;
+                position: relative;
+                .equipment-right {
+                    position: absolute;
+                    left: 0;
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+}
