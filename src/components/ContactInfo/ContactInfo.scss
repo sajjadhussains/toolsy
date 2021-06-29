@@ -1,0 +1,81 @@
+.contact-info-section{
+    margin-left: 251px;
+    margin-right: 232px;
+    margin-top:33px;
+    .contact-info-container{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+        .phone-message{
+            display: flex;
+            flex-wrap: wrap;
+            .fontAwesome-icon{
+                background-color: #4BAB01;
+                padding: 10px;
+                border-radius: 10px;
+                color: white;
+                margin-right: 10px;
+            }
+            .fontAwesome-text{
+                display: flex;
+                align-items: center;
+            }
+        }
+        .phone-message-1{
+            margin-right: 86px;
+        }
+        .phone-message-2{
+            margin-right: 86px;
+        }
+    }
+}
+
+
+@media(max-width:1199px){
+   .contact-info-section{
+        margin-left:150px;
+        margin-right: 130px;
+    }
+}
+
+// @media(max-width:992px){
+//     .contact-info-container{
+//         display: block;
+//         .phone-message-1{
+//             margin-right: 0px;
+//         }
+//         .phone-message-2{
+//             margin-right: 0px;
+//         }
+//         .phone-message-3{
+//             position:relative;
+//             left: -30px;
+//         }
+//     }
+// }
+
+@media(max-width:575px){
+   
+    .phone-message-3{
+        margin-right: 120px;
+    }
+}
+
+@media(max-width:767px){
+    .contact-info-container{
+        display: flex;
+        flex-wrap: nowrap;
+       justify-content: center;
+    }
+    .phone-message-3{
+        margin-right: 60px;
+    }
+    .phone-message{
+        margin-bottom: 15px;
+    }
+}
+@media(max-width:420px){
+    .phone-message-3{
+        margin-right: 120px;
+    }
+}

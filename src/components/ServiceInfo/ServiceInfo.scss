@@ -3,10 +3,12 @@
                 margin-right: 68px;
                 margin-top: 112px;
                 margin-bottom: 140px;
+                overflow: hidden;
 }
 .service-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 @media(max-width:575px){
     .service-section{

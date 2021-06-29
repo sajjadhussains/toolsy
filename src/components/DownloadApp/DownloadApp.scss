@@ -1,0 +1,32 @@
+.download-app-section{
+    margin-left: 163px;
+    margin-top: 150px;
+    display:flex;
+    flex-wrap: wrap;
+    overflow-x:hidden ;
+    overflow-y: hidden;
+    .download-app-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+    }
+    .download-app-image{
+        width: 45%;
+    }
+}
+
+@media(max-width:575px){
+    .download-app-section{
+        margin-left: 15px;
+        margin-top: 60px;
+        .download-app-text{
+            margin-left: 10px;
+        }
+    }
+    // .download-app-image{
+    //     img{
+    //         transform: scale(0.8);
+    //     }
+    // }
+}

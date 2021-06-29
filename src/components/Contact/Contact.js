@@ -3,6 +3,7 @@ import './Contact.scss'
 import capture from '../../images/Capture.png';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Map from '../Map/Map';
 
 const Contact = () => {
     useEffect(() => {
@@ -11,7 +12,7 @@ const Contact = () => {
     return (
         <section className="contact-section">
             <div className="contact-header">
-                <h1>Contact</h1>
+                <h1>Contact Us</h1>
             </div>
             <div className="row contact-form">
                 <div className="col-md-5 " data-aos="fade-right">
@@ -35,9 +36,10 @@ const Contact = () => {
                         <div className="google-map-image-section">
                             <p className="pt-2">Find Us on Québec, Canada</p>
                             <div className="map-image">
-                                <img className="img-fluid" src={capture} alt="" />
+                                {/* <img className="img-fluid" src={capture} alt="" /> */}
+                                    <Map></Map>
                             </div>
-                            <p className="">**Coming soon: ontario - alberta - colombie britanique</p>
+                            <p className="pt-2">**Coming soon: ontario - alberta - colombie britanique</p>
                         </div>
                     </div>
                 </div>
